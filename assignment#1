@@ -1,0 +1,19 @@
+Hello!
+
+I have been able to create a basic virtual ansible lab to build upon during this course. My lab consists of an ESXI server running a number of Virtual Machines.
+I have the following virtual machines/roles"
+
+
+	1. Ubuntu 16.04 VM - This is runnig Ansible and Git
+	2. Juniper vMX Router #1  (in the inventory of the ansible 'hosts' file)
+	3. Juniper VMX Router #2  (in the inventory of the ansible 'hosts' file)
+
+
+The Ubuntu server has a connection into the "management" network of my two vMX routers, and that is how it is logging into them via SSH.
+I am probably going to add a vSRX to my lab topology, and possibly a Cumulus Linux box or two. I have two virtual VyOS routers that I may decide to bring into 
+the topology as well.
+
+
+Looking forward to the rest of the class!
+
+-STEVE
